@@ -1,9 +1,16 @@
 import React from 'react';
+import TimerCard from '../HomeComponents/TimerCard';
 
 class Home extends React.Component{
     render() {
         return(
-            <div>This is the homepage</div>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-6'>
+                        <TimerCard />
+                    </div>
+                </div>
+            </div>
         )
     }
 }
